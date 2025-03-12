@@ -1,0 +1,81 @@
+---
+Language: Cpp
+
+AccessModifierOffset: -4
+
+AlignAfterOpenBracket: BlockIndent
+AlignArrayOfStructures: Left
+# AlignConsecutiveAssignments: Consecutive
+# AlignConsecutiveDeclarations: Consecutive
+# AlignConsecutiveMacros: Consecutive
+AlignConsecutiveAssignments:
+  Enabled: true
+  AcrossEmptyLines: false
+  AcrossComments: false
+  AlignCompound: true
+  PadOperators: true
+AlignConsecutiveDeclarations:
+  Enabled: true
+  AcrossEmptyLines: false
+  AcrossComments: false
+AlignConsecutiveMacros:
+  Enabled: true
+  AcrossEmptyLines: false
+  AcrossComments: false
+AlignConsecutiveShortCaseStatements:
+  Enabled: true
+  AcrossEmptyLines: true
+  AcrossComments: true
+  AlignCaseColons: false
+
+AllowShortBlocksOnASingleLine: Always
+AllowShortCaseLabelsOnASingleLine: true
+# AllowShortCompoundRequirementOnASingleLine: true
+AllowShortEnumsOnASingleLine: true
+AllowShortFunctionsOnASingleLine: All
+AllowShortIfStatementsOnASingleLine: Never
+AllowShortLambdasOnASingleLine: All
+AllowShortLoopsOnASingleLine: true
+
+BreakAfterAttributes: Leave
+BreakBeforeBraces: Allman
+BreakBeforeConceptDeclarations: Always
+BreakConstructorInitializers: AfterColon
+
+ContinuationIndentWidth: 4
+Cpp11BracedListStyle: true
+
+DerivePointerAlignment: false
+
+EmptyLineAfterAccessModifier: Never
+EmptyLineBeforeAccessModifier: Leave
+
+FixNamespaceComments: true
+
+IndentAccessModifiers: false
+IndentCaseLabels: false
+IndentRequiresClause: true
+IndentWidth: 4
+
+InsertBraces: false
+
+LambdaBodyIndentation: Signature
+
+NamespaceIndentation: All
+
+PointerAlignment: Left
+QualifierAlignment: Left
+ReferenceAlignment: Left
+
+RequiresClausePosition: OwnLine
+RequiresExpressionIndentation: OuterScope
+
+SeparateDefinitionBlocks: Leave
+
+SpaceAfterTemplateKeyword: true
+SpaceBeforeCpp11BracedList: false
+
+TabWidth: 4
+UseTab: AlignWithSpaces
+
+ColumnLimit: 0
